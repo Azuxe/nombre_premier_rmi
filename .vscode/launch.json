@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ComputeEngine",
+            "request": "launch",
+            "mainClass": "ComputeEngine",
+            "projectName": "client_serveurs_rmi_1bc2d92a"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Serveur",
+            "request": "launch",
+            "mainClass": "Serveur",
+            "projectName": "client_serveurs_rmi_1bc2d92a"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) with Arguments Prompt",
+            "request": "launch",
+            "mainClass": "ComputeMul",
+            "args": "${command:SpecifyProgramArgs}"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ComputeMul",
+            "request": "launch",
+            "mainClass": "ComputeMul"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Compute",
+            "request": "launch",
+            "mainClass": "Compute"
+        }
+    ]
+}
